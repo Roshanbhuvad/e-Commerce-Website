@@ -10,7 +10,7 @@ const reviewSchema = new mongoose.Schema(
     timestamps: true,
   }
 );
-const productSchema = new mongoose.Schema({
+const prodctSchema = new mongoose.Schema({
   name: { type: String, required: true },
   image: { type: String, required: true },
   brand: { type: String, required: true },
@@ -23,6 +23,6 @@ const productSchema = new mongoose.Schema({
   reviews: [reviewSchema],
 });
 
-const productModel = mongoose.model('Product', productSchema);
+const productModel = mongoose.model('Product', prodctSchema);
 
 export default productModel;
