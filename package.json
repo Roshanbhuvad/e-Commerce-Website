@@ -1,10 +1,9 @@
 {
-  "name": "e-Commerce",
+  "name": "e-commerce",
   "version": "1.0.0",
-  "description": "",
+  "description": "Demo : https://e-commerce.herokuapp.com/",
   "main": "index.js",
   "dependencies": {
-    "aws-sdk": "^2.702.0",
     "body-parser": "^1.19.0",
     "dotenv": "^8.2.0",
     "eslint-plugin-react": "^7.19.0",
@@ -33,14 +32,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Roshanbhuvad/amazona.git"
+    "url": "git+https://github.com/Roshanbhuvad/e-Commerce-Website"
   },
-  "author": "Roshan bhuvad",
+  "author": "Roshan Bhuvad",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/basir/amazona/issues"
+    "url": "https://github.com/Roshanbhuvad/e-Commerce-Website/issues"
   },
-  "homepage": "https://github.com/basir/amazona#readme",
+  "homepage": "https://github.com/Roshanbhuvad/e-Commerce-Website#readme",
   "engines": {
     "node": "12.4.0",
     "npm": "6.9.0"
